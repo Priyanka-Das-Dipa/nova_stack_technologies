@@ -9,7 +9,7 @@ interface TeamCardProps {
 
 const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
   return (
-    <div className="mx-auto flex max-w-[350px] flex-col items-center justify-center space-y-4 rounded-xl bg-white p-8 shadow-lg border-2 border-primary">
+    <div className="mx-auto flex max-w-[350px] flex-col items-center justify-center space-y-4 rounded-xl bg-white p-8 shadow-lg">
       <Image
         width={110}
         height={110}

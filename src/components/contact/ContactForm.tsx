@@ -58,7 +58,7 @@ export default function ContactForm() {
         <div className="z-10 space-y-2 text-center">
           <h2 className="text-3xl font-medium text-white">Get in Touch</h2>
           <p className="text-sm text-white">
-            Have a question or need support? Fill out the form below.
+            Have a question or need support? <br className="block lg:hidden"/> Fill out the form below.
           </p>
           <div className="flex justify-center items-center gap-3">
             <Link
@@ -97,7 +97,7 @@ export default function ContactForm() {
       </div>
       {/* form side  */}
       <div className="flex w-full flex-col justify-center bg-white py-18 lg:w-[60%] dark:bg-zinc-900">
-        <div className="pb-8 ">
+        <div className="pb-8">
           <h2 className="text-center text-3xl font-semibold tracking-tight text-blue-400">
             Contact Us
           </h2>

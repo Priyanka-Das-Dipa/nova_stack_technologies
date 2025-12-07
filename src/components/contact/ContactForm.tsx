@@ -97,7 +97,7 @@ export default function ContactForm() {
         </div>
       </div>
       {/* form side  */}
-      <div className="flex w-full flex-col justify-center bg-white py-18 lg:w-[60%] dark:bg-zinc-900">
+      <div className="flex w-full flex-col justify-center bg-white py-18 lg:w-[60%] ">
         <div className="pb-8">
           <h2 className="uppercase text-center text-3xl font-semibold tracking-tight text-blue-400">
             Contact Us
@@ -115,7 +115,7 @@ export default function ContactForm() {
           {/* Name Input */}
           <div className="w-[80%] md:w-[60%]">
             <input
-              className="w-full rounded-lg border border-blue-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 dark:text-zinc-400"
+              className="w-full rounded-lg border border-blue-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 "
               type="text"
               placeholder="Your Name"
               name="name"
@@ -130,7 +130,7 @@ export default function ContactForm() {
           {/* Email Input */}
           <div className="w-[80%] md:w-[60%]">
             <input
-              className="w-full rounded-lg border border-blue-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 dark:text-zinc-400"
+              className="w-full rounded-lg border border-blue-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 "
               type="email"
               placeholder="Your Email Address"
               name="email"
@@ -145,7 +145,7 @@ export default function ContactForm() {
           {/* Message Input */}
           <div className="w-[80%] md:w-[60%]">
             <textarea
-              className="w-full rounded-lg border border-blue-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 dark:text-zinc-400"
+              className="w-full rounded-lg border border-blue-400 bg-transparent py-2 pl-4 text-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-300/50 "
               placeholder="Share your message..."
               name="message"
               value={formData.message}

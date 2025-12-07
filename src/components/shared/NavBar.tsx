@@ -17,7 +17,7 @@ export default function NavBar() {
   return (
     <>
       {/* Navbar */}
-      <header className="bg-white shadow-md dark:bg-gray-900 dark:text-gray-100 fixed top-0 w-full z-50">
+      <header className="bg-white shadow-md  fixed top-0 w-full z-50">
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
@@ -72,7 +72,7 @@ export default function NavBar() {
       {open && (
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex">
           {/* Menu Container */}
-          <div className="bg-white dark:bg-gray-900 w-64 h-full p-6 shadow-lg animate-slideRight">
+          <div className="bg-white  w-64 h-full p-6 shadow-lg animate-slideRight">
             {/* Close Button */}
             <button onClick={() => setOpen(false)} className="mb-6">
               <svg
@@ -80,7 +80,7 @@ export default function NavBar() {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                className="w-6 h-6 text-gray-800 dark:text-gray-100"
+                className="w-6 h-6 text-gray-800 "
               >
                 <path
                   strokeLinecap="round"

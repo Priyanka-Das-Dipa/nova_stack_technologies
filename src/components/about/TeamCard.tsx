@@ -18,7 +18,7 @@ const TeamCard: React.FC<TeamCardProps> = ({ member }) => {
         alt={member.name}
       />
       <div className="space-y-1 text-center">
-        <h1 className="text-2xl text-gray-700 dark:text-white/90">
+        <h1 className="text-2xl text-gray-700 ">
           {member.name}
         </h1>
         <p className="text-sm text-gray-400">{member.role}</p>

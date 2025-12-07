@@ -31,10 +31,17 @@ export default function AboutBanner() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 WHO WE ARE
               </h2>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed mb-2">
                 We are a forward-thinking technology company committed to
-                delivering innovative <br /> digital solutions that transform
+                delivering innovative digital solutions that transform
                 businesses worldwide.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                Founded with a vision to push the boundaries of technology,
+                NovaStack Technologies blends creativity, engineering, and
+                strategy to build products that inspire progress. From startups
+                to global enterprises, we help teams turn bold ideas into
+                reality.
               </p>
             </div>
           </div>

@@ -51,14 +51,15 @@ export default function ContactForm() {
     <div className="flex  overflow-hidden rounded-xl shadow-md">
       {/* design side  */}
       <div className="relative hidden items-center justify-center bg-blue-300 md:flex md:w-[50%]">
-        <div className="absolute -top-2 left-[20%] h-16 w-16 rounded-full bg-gradient-to-br from-white via-blue-300 to-blue-400"></div>
-        <div className="absolute bottom-[18%] left-[20%] h-20 w-20 rounded-full bg-gradient-to-br from-white via-blue-300 to-blue-400"></div>
-        <div className="absolute -right-7 top-[50%] h-14 w-14 -translate-y-1/2 rounded-full bg-gradient-to-br from-white via-blue-300 to-blue-400 transition-all"></div>
-        <div className="absolute left-[50%] top-[22%] h-24 w-24 -translate-x-1/2 rounded-full bg-gradient-to-br from-white via-blue-300 to-blue-400"></div>
+        <div className="absolute -top-2 left-[20%] h-16 w-16 rounded-full bg-linear-to-br from-white via-blue-300 to-blue-400"></div>
+        <div className="absolute bottom-[18%] left-[20%] h-20 w-20 rounded-full bg-linear-to-br from-white via-blue-300 to-blue-400"></div>
+        <div className="absolute -right-7 top-[50%] h-14 w-14 -translate-y-1/2 rounded-full bg-linear-to-br from-white via-blue-300 to-blue-400 transition-all"></div>
+        <div className="absolute left-[50%] top-[22%] h-24 w-24 -translate-x-1/2 rounded-full bg-linear-to-br from-white via-blue-300 to-blue-400"></div>
         <div className="z-10 space-y-2 text-center">
           <h2 className="text-3xl font-medium text-white">Get in Touch</h2>
           <p className="text-sm text-white">
-            Have a question or need support? <br className="block lg:hidden"/> Fill out the form below.
+            Have a question or need support? <br className="block lg:hidden" />{" "}
+            Fill out the form below.
           </p>
           <div className="flex justify-center items-center gap-3">
             <Link
@@ -98,11 +99,13 @@ export default function ContactForm() {
       {/* form side  */}
       <div className="flex w-full flex-col justify-center bg-white py-18 lg:w-[60%] dark:bg-zinc-900">
         <div className="pb-8">
-          <h2 className="text-center text-3xl font-semibold tracking-tight text-blue-400">
+          <h2 className="uppercase text-center text-3xl font-semibold tracking-tight text-blue-400">
             Contact Us
           </h2>
           {success && (
-            <p className=" pt-4 text-green-600 text-center font-medium">{success}</p>
+            <p className=" pt-4 text-green-600 text-center font-medium">
+              {success}
+            </p>
           )}
         </div>
         <form

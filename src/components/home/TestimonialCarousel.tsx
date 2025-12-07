@@ -46,7 +46,7 @@ const TestimonialCarousel: React.FC = () => {
   };
 
   return (
-    <section className="py-16 md:py-24 bg-gray-50 overflow-hidden">
+    <section className="py-16 md:py-24 overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-8 md:mb-10">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 tracking-tight">
